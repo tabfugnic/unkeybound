@@ -1,0 +1,15 @@
+{
+
+  "manifest_version": 2,
+  "name": "Unkeybound",
+  "version": "0.1.0",
+  "description": "Unbind custom keybindings on the web to manage surprises",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["unkeybound.js"]
+    }
+  ]
+
+}
